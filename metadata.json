@@ -1,0 +1,8 @@
+{
+  "name": "KrishiSathi AI",
+  "description": "Premium Agritech Intelligence and Public Dataset Studio powered by lightweight Gemma models for smart agricultural decision-making.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

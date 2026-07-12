@@ -1,0 +1,23 @@
+{
+  "datasets": [],
+  "history": [],
+  "reports": [],
+  "customPrompts": [],
+  "settings": {
+    "theme": "dark",
+    "language": "English",
+    "gemmaEndpoint": "",
+    "model": "gemini-3.5-flash",
+    "exportPreference": "pdf",
+    "notifications": true,
+    "privacyMode": false
+  },
+  "profile": {
+    "name": "Monojit Nandy",
+    "email": "monojitnandy20052023lp@gmail.com",
+    "organization": "National Data Informatics Cell",
+    "role": "Lead Public Data Specialist",
+    "avatarSeed": "india-analyst",
+    "storageUsed": "0 KB"
+  }
+}
