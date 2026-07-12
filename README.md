@@ -318,7 +318,7 @@ PUT /api/profile
 
 ---
 
-## 📋 Supported File Formats
+## Supported File Formats
 
 ### CSV
 ```csv
@@ -352,7 +352,7 @@ Workbook → Sheet → Table
 
 ---
 
-## 🧠 AI Prompt Templates
+## AI Prompt Templates
 
 ### 10 Pre-built Templates
 
@@ -378,7 +378,7 @@ Workbook → Sheet → Table
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 - **React 19** - UI framework
@@ -442,15 +442,15 @@ data/db.json
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
-### ❌ Port Already in Use
+###  Port Already in Use
 ```
 Error: listen EADDRINUSE: address already in use
 ```
 **Solution:** Server auto-selects next port. Check console for actual URL.
 
-### ❌ Gemini API Key Error
+### Gemini API Key Error
 ```
 Error: GEMINI_API_KEY is not defined
 ```
@@ -459,13 +459,13 @@ Error: GEMINI_API_KEY is not defined
 2. Add: `GEMINI_API_KEY=your_key_here`
 3. Restart server
 
-### ❌ CSS Import Error
+### CSS Import Error
 ```
 @import must precede all other statements
 ```
 **Solution:** Ensure `@import` statements are at top of `src/index.css`
 
-### ❌ Build Fails
+### Build Fails
 ```bash
 # Clear and reinstall
 npm run clean
@@ -473,7 +473,7 @@ npm install
 npm run build
 ```
 
-### ❌ Hot Reload Issues
+### Hot Reload Issues
 ```bash
 # Disable HMR temporarily
 DISABLE_HMR=true npm run dev
