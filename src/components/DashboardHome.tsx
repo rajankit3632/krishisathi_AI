@@ -29,9 +29,9 @@ import { Dataset, Report, HistoryItem } from '../types';
 import EmptyState from './EmptyState';
 
 // Image assets generated previously
-const AGRI_HERO_BG = "/src/assets/images/agri_hero_bg_1783871484858.jpg";
-const INTRO_FARMER_IMG = "/src/assets/images/intro_farmer_1783871502924.jpg";
-const SMART_GREENHOUSE_IMG = "/src/assets/images/smart_greenhouse_1783871519314.jpg";
+const AGRI_HERO_BG = "/assets/agri_hero_bg_1783871484858.jpg";
+const INTRO_FARMER_IMG = "/assets/intro_farmer_1783871502924.jpg";
+const SMART_GREENHOUSE_IMG = "/assets/smart_greenhouse_1783871519314.jpg";
 
 interface DashboardHomeProps {
   datasets: Dataset[];
@@ -734,7 +734,7 @@ export default function DashboardHome({
                   }}
                   className="px-5 py-2 rounded-xl bg-gold text-emerald-950 font-bold text-xs"
                 >
-                  Consult AI Studio
+                  Consult Gemma
                 </button>
               </div>
             </motion.div>
