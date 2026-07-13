@@ -15,34 +15,34 @@ A modern, open-source AI-powered analytics platform designed for exploring publi
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🤖 AI-Powered Intelligence
+### AI-Powered Intelligence
 - **Google Gemini Integration** - Advanced AI models (3.5 Flash & 3.1 Pro)
 - **Smart Analysis** - Automatic insights, trends, anomalies, and risk assessment
 - **Customizable Prompts** - Pre-built templates or create your own
 - **Confidence Scoring** - Track AI confidence on each analysis
 
-### 🌍 Multilingual Capabilities
+### Multilingual Capabilities
 Insights available in 12+ Indian languages:
 - English, Hindi (हिन्दी), Bengali (বাংলা)
 - Tamil (தமிழ்), Telugu (తెలుగు), Kannada (ಕನ್ನಡ)
 - Marathi (मराठी), Gujarati (ગુજરાતી), Malayalam (മലയാളം)
 - Punjabi (ਪੰਜਾਬਿ), Odia (ଓଡ଼ିଆ), Urdu (اردو)
 
-### 📊 Data Management
+### Data Management
 - **Multi-Format Support** - CSV, JSON, Excel (XLSX)
 - **Automatic Parsing** - Smart type detection and data cleaning
 - **Statistics Generation** - Headers, duplicates, missing values, distributions
 - **Persistent Storage** - Local JSON database
 
-### 📈 Visualization & Reporting
+### Visualization & Reporting
 - **Interactive Charts** - Recharts-powered visualizations
 - **Report Generation** - Download as Markdown files
 - **Data Exploration** - Trends, patterns, comparisons
 - **Export Options** - Multiple format support
 
-### 🎨 Modern UI/UX
+### Modern UI/UX
 - **Dark Theme** - Eye-friendly glass-morphism design
 - **Responsive Layout** - Optimized for desktop and tablet
 - **Intuitive Navigation** - Sidebar-based tab system
@@ -50,7 +50,7 @@ Insights available in 12+ Indian languages:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -92,7 +92,7 @@ http://localhost:3000
 
 ---
 
-## 📦 Available Scripts
+## Available Scripts
 
 | Command | Description | Output |
 |---------|-------------|--------|
@@ -104,27 +104,27 @@ http://localhost:3000
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 KrishiSathi_AI/
 │
 ├── src/
 │   ├── components/
-│   │   ├── AIStudio.tsx              # 🤖 Main AI analysis interface
-│   │   ├── DashboardHome.tsx         # 📊 Home dashboard
-│   │   ├── UploadPage.tsx            # 📁 File upload portal
-│   │   ├── DatasetLibrary.tsx        # 📚 Dataset browser
-│   │   ├── VisualizationStudio.tsx   # 📈 Chart visualization
-│   │   ├── ReportGenerator.tsx       # 📄 Report builder
-│   │   ├── HistoryTab.tsx            # ⏱️ Analysis history
-│   │   ├── SettingsTab.tsx           # ⚙️ User settings
-│   │   ├── ProfileTab.tsx            # 👤 User profile
-│   │   ├── Navbar.tsx                # 🔝 Top navigation
-│   │   ├── Sidebar.tsx               # 📍 Main sidebar
-│   │   ├── AILoading.tsx             # ⏳ Loading state
-│   │   ├── EmptyState.tsx            # 🚫 Empty placeholders
-│   │   └── PromptBuilder.tsx         # 🔨 Custom prompt editor
+│   │   ├── AIStudio.tsx              #  Main AI analysis interface
+│   │   ├── DashboardHome.tsx         #  Home dashboard
+│   │   ├── UploadPage.tsx            # File upload portal
+│   │   ├── DatasetLibrary.tsx        # Dataset browser
+│   │   ├── VisualizationStudio.tsx   # Chart visualization
+│   │   ├── ReportGenerator.tsx       # Report builder
+│   │   ├── HistoryTab.tsx            # ⏱Analysis history
+│   │   ├── SettingsTab.tsx           # User settings
+│   │   ├── ProfileTab.tsx            # User profile
+│   │   ├── Navbar.tsx                # Top navigation
+│   │   ├── Sidebar.tsx               # Main sidebar
+│   │   ├── AILoading.tsx             # Loading state
+│   │   ├── EmptyState.tsx            # Empty placeholders
+│   │   └── PromptBuilder.tsx         # Custom prompt editor
 │   ├── App.tsx                       # Main app component
 │   ├── main.tsx                      # React entry point
 │   ├── index.css                     # Global styles & theme
@@ -133,14 +133,14 @@ KrishiSathi_AI/
 │       └── images/
 │
 ├── data/
-│   ├── db.json                       # 💾 Local data store
+│   ├── db.json                       # Local data store
 │   └── Daily Retail Price of Potato.csv
 │
-├── server.ts                         # 🖥️ Express backend
-├── vite.config.ts                    # ⚡ Vite configuration
-├── tsconfig.json                     # 📋 TypeScript config
-├── package.json                      # 📦 Dependencies
-└── README.md                         # 📖 This file
+├── server.ts                         # Express backend
+├── vite.config.ts                    # Vite configuration
+├── tsconfig.json                     # TypeScript config
+├── package.json                      # Dependencies
+└── README.md                         # This file
 ```
 
 ---
@@ -152,7 +152,7 @@ KrishiSathi_AI/
 http://localhost:3000/api
 ```
 
-### 📊 Datasets
+### Datasets
 
 #### Get All Datasets
 ```http
@@ -187,7 +187,7 @@ DELETE /api/datasets/:id
 
 ---
 
-### 🤖 AI Analysis
+### AI Analysis
 
 #### Run Analysis
 ```http
@@ -226,7 +226,7 @@ Content-Type: application/json
 
 ---
 
-### 📚 History
+### History
 
 #### Get Analysis History
 ```http
@@ -240,7 +240,7 @@ DELETE /api/history/:id
 
 ---
 
-### 📄 Reports
+### Reports
 
 #### Get All Reports
 ```http
@@ -259,7 +259,7 @@ DELETE /api/reports/:id
 
 ---
 
-### ⚙️ Settings & Profile
+### Settings & Profile
 
 #### Get Settings
 ```http
@@ -283,7 +283,7 @@ PUT /api/profile
 
 ---
 
-## 🎯 How to Use
+## How to Use
 
 ### 1. Upload a Dataset
 1. Click **"Upload"** in the sidebar
@@ -406,7 +406,7 @@ Workbook → Sheet → Table
 
 ---
 
-## 📊 Data Storage
+## Data Storage
 
 ### Local Database Structure
 ```
@@ -518,16 +518,16 @@ This project is open-source and available under the **MIT License**. See [LICENS
 
 ---
 
-## 📞 Support & Contact
+## Support & Contact
 
-- 📧 **Email:** support@krishisathi.com
-- 🐛 **Issues:** [GitHub Issues](https://github.com/yourusername/KrishiSathi_AI/issues)
-- 💬 **Discussions:** [GitHub Discussions](https://github.com/yourusername/KrishiSathi_AI/discussions)
-- 📖 **Documentation:** Full docs available in `/docs`
+- **Email:** support@krishisathi.com
+- **Issues:** [GitHub Issues](https://github.com/yourusername/KrishiSathi_AI/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/yourusername/KrishiSathi_AI/discussions)
+- **Documentation:** Full docs available in `/docs`
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Multi-user support with authentication
 - [ ] Cloud data sync
