@@ -69,7 +69,7 @@ Total Empty Cells: ${dataset.missingCount}
 Ingressed size: ${dataset.size}`;
 
     setOverview(metricsStr);
-    setAppendix(`Report generated via Gemma-powered explainable intelligence models at KrishiSathi AI Studio. Bounded strictly to file "${dataset.name}".`);
+    setAppendix(`Report generated via Gemma-powered explainable intelligence models at KrishiSathi AI . Bounded strictly to file "${dataset.name}".`);
 
     if (histItem && histItem.response) {
       setSummary(histItem.response.summary || '');

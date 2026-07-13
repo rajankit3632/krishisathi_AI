@@ -51,7 +51,7 @@ export default function PromptBuilder({
           <Terminal className="w-5 h-5 text-indigo-400" /> Prompt Builder
         </h2>
         <p className="text-xs text-slate-400">
-          Craft bespoke System and User Prompt templates. Save them to extend your analytical profiles in the AI Studio playground.
+          Craft bespoke System and User Prompt templates. Save them to extend your analytical profiles in the playground.
         </p>
       </div>
 

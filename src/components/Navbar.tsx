@@ -195,7 +195,7 @@ export default function Navbar({
             onClick={() => setActiveTab('ai-studio')}
             className={`px-3 py-1.5 rounded-lg text-xs font-medium transition ${activeTab === 'ai-studio' ? 'bg-white/10 text-white shadow-sm border border-white/10' : 'text-slate-400 hover:text-white'}`}
           >
-            AI Studio
+            Analysis
           </button>
           <button
             onClick={() => setActiveTab('datasets')}

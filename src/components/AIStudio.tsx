@@ -127,7 +127,7 @@ export default function AIStudio({
       onAddHistory(historyItem);
     } catch (err: any) {
       console.error("AI execution error:", err);
-      setErrorText(err.message || "An unexpected error occurred in Gemma AI Studio.");
+      setErrorText(err.message || "An unexpected error occurred in Gemma.");
     } finally {
       setAnalyzing(false);
     }
